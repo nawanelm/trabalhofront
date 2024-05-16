@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu curriculo</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header></header>
+    <!-- MENU INICIAL COM LINKS -->
+        <nav  class="inicio">
+            <ul>
+                <li> <a href="sobremim.html"> Sobre mim </a></li>
+                <li> <a href="formacao.html"> Formação</a></li>
+                <li> <a href="portifolio.html"> Portifólio </a></li>
+                <li> <a href="contato.html"> Contato </a></li>
+            </ul>
+        </nav>
+    
+    
+    <div class="biografia">
+        <h1>NAWANE DOS SANTOS LIMA</h1>
+        <p> Sejam bem vindos ao meu trabalho de aplicações web e móveis</p>
+    </div>
+
+    <footer>
+        <p class="p-footer">  desenvolvido por @nawanelima </p>
+          <p id="horaAtual"></p>
+        <script>
+            function atualizarHora() {
+                var data = new Date();
+                var hora = data.getHours();
+                var minuto = data.getMinutes();
+                var segundo = data.getSeconds();
+                document.getElementById("horaAtual").innerHTML =  hora + ":" + minuto + ":" + segundo;
+        }
+        atualizarHora();
+        setInterval(atualizarHora, 1000);
+        </script>
+    </footer>
+
+    <script src="interacoes.js"></script>   
+</body>
+</html>

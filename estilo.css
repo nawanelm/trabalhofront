@@ -1,0 +1,117 @@
+/* definições gerais do site */
+body {
+    background-image: url(imagem/fundo.rosaclaro.jpg);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header.inicio {
+    position: fixed;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+/* header img {
+    max-width: 200px;
+    height: 200px;
+}  */
+
+.inicio ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10;
+    padding: 30;
+    background-color: rgb(250, 246, 249);
+}
+
+
+.inicio ul li {
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 80px;
+}
+/* deixando a pagina responsiva quando a tela for dminuida */
+@media screen and (max-width: 600px) {
+    .inicio ul li {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    
+}
+
+/* muda o design do cursor */
+.inicio ul li a:hover{
+    background-color: rgb(248, 196, 239);
+    font-size: 19px;
+    cursor: cell;
+
+}
+
+/* .inicio ul li a:visited {
+    color: blueviolet;
+
+} */
+.inicio ul li a {
+    text-decoration: none;      
+    color: rgb(10, 10, 10);
+}
+
+.biografia {
+    display: inline-block;
+    height: 50vh;
+    padding: 200px;
+}
+
+.sobremim h2 {
+
+}
+
+footer {
+    background-color: rgba(250, 204, 240, 0.822);
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    position: sticky;
+        .p-footer{
+        color: rgb(11, 11, 11);
+        margin-left: 1000px;
+        font-size: xx-small;
+
+    
+    }
+
+   
+}
+
+/* .p-footer {
+        background-color: red;
+
+} */
+
+section {
+    /* margin-bottom: 20px; */
+}
+
+section img {
+    width: 200px;
+    height: 200px;
+}
+
+form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
