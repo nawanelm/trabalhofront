@@ -18,11 +18,11 @@ header.inicio {
     justify-content: center;
     padding: 0 10%;
 }
-
-/* header img {
-    max-width: 200px;
+/* define um padrao para as imagens adicionadas dentro de uma sessão */
+section img {
+    width: 200px;
     height: 200px;
-}  */
+}
 
 .inicio ul {
     display: flex;
@@ -49,21 +49,17 @@ header.inicio {
         margin-left: 20px;
         margin-right: 50px;
     }
-    
 }
 
 /* muda o design do cursor */
 .inicio ul li a:hover{
     background-color: rgb(248, 196, 239);
     font-size: 19px;
-    cursor: cell;
+    cursor: grabbing;
+    transition: all 2s;
 
 }
 
-/* .inicio ul li a:visited {
-    color: blueviolet;
-
-} */
 .inicio ul li a {
     text-decoration: none;      
     color: rgb(10, 10, 10);
@@ -75,8 +71,52 @@ header.inicio {
     padding: 200px;
 }
 
-.sobremim h2 {
+.sobremim  {
 
+    .fotomeninapc{
+    margin-left: 40%;
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+
+    }
+    .fotodegato{
+        width: 100px;
+        height: auto; 
+        border-radius: 30%;
+        margin-left: 100px;
+        }
+    .p1{
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .p2{
+        color: blue;
+    }
+
+}
+/* muda o design do cursor da foto */
+.sobremim .fotomeninapc:hover{
+    width: 280px;
+    height: 280px;
+    transition: all 3s;
+
+}
+
+
+.fotoconstrucao{
+    width: 450px;
+    height: 350px; 
+    border-radius: 0%;
+}
+
+
+.voltar a img {
+    max-width: 40px;
+    height: 40px;
+    position: fixed;
+    margin-top: 140;    
 }
 
 footer {
@@ -88,27 +128,11 @@ footer {
         .p-footer{
         color: rgb(11, 11, 11);
         margin-left: 1000px;
-        font-size: xx-small;
-
-    
-    }
-
-   
+        font-size: xx-small
+    }  
 }
 
-/* .p-footer {
-        background-color: red;
 
-} */
-
-section {
-    /* margin-bottom: 20px; */
-}
-
-section img {
-    width: 200px;
-    height: 200px;
-}
 
 form input, form textarea {
     display: block;

@@ -11,23 +11,26 @@
     <!-- MENU INICIAL COM LINKS -->
         <nav  class="inicio">
             <ul>
-                <li> <a href="sobremim.html"> Sobre mim </a></li>
-                <li> <a href="formacao.html"> Formação</a></li>
-                <li> <a href="portifolio.html"> Portifólio </a></li>
-                <li> <a href="contato.html"> Contato </a></li>
+                <li> <a href="sobremim.html"> Sobre mim </a></li> <!-- link para a pagina sobremim -->
+                <li> <a href="formacao.html"> Formação</a></li> <!-- link para a pagina formação --> 
+                <li> <a href="portifolio.html"> Portifólio </a></li> <!-- link para a pagina portifólio -->
+                <li> <a href="contato.html"> Contato </a></li> <!-- link para a pagina contato -->
             </ul>
         </nav>
     
     
     <div class="biografia">
-        <h1>NAWANE DOS SANTOS LIMA</h1>
+        <h1>NAWANE DOS SANTOS LIMA</h1> <!-- Título principal -->
         <p> Sejam bem vindos ao meu trabalho de aplicações web e móveis</p>
     </div>
+   
 
-    <footer>
+
+    <footer> <!-- Início do rodapé -->
         <p class="p-footer">  desenvolvido por @nawanelima </p>
           <p id="horaAtual"></p>
-        <script>
+          <!-- Início do script JavaScript -->
+        <script> 
             function atualizarHora() {
                 var data = new Date();
                 var hora = data.getHours();
@@ -35,9 +38,10 @@
                 var segundo = data.getSeconds();
                 document.getElementById("horaAtual").innerHTML =  hora + ":" + minuto + ":" + segundo;
         }
-        atualizarHora();
+        atualizarHora(); 
         setInterval(atualizarHora, 1000);
         </script>
+        
     </footer>
 
     <script src="interacoes.js"></script>   
