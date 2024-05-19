@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-header.inicio {
+header.inicio { /* Estiliza o cabeçalho*/
     position: fixed;
     height: 90px;
     display: flex;
@@ -24,7 +24,7 @@ section img {
     height: 200px;
 }
 
-.inicio ul {
+.inicio ul { /* Estiliza a lista de navegação*/
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -35,7 +35,7 @@ section img {
 }
 
 
-.inicio ul li {
+.inicio ul li { /* Estiliza os itens da lista */
     margin-left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
@@ -65,13 +65,13 @@ section img {
     color: rgb(10, 10, 10);
 }
 
-.biografia {
+.biografia { /* Estiliza a seção biografia com layout e altura */
     display: inline-block;
     height: 50vh;
     padding: 200px;
 }
 
-.sobremim  {
+.sobremim  { /* Estiliza a seção sobre mim*/
 
     .fotomeninapc{
     margin-left: 40%;
@@ -80,23 +80,14 @@ section img {
     border-radius: 50%;
 
     }
-    .fotodegato{
-        width: 100px;
-        height: auto; 
-        border-radius: 30%;
-        margin-left: 100px;
-        }
+    
     .p1{
         font-size: large;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     }
-    .p2{
-        color: blue;
-    }
-
 }
-/* muda o design do cursor da foto */
+/* muda o design do cursor da foto na sessão sobremim */
 .sobremim .fotomeninapc:hover{
     width: 280px;
     height: 280px;
@@ -105,21 +96,21 @@ section img {
 }
 
 
-.fotoconstrucao{
+.fotoconstrucao{ /* Estiliza uma imagem específica */
     width: 450px;
     height: 350px; 
     border-radius: 0%;
 }
 
 
-.voltar a img {
+.voltar a img { /* Estiliza a imagem de retorno ao index */
     max-width: 40px;
     height: 40px;
     position: fixed;
     margin-top: 140;    
 }
 
-footer {
+footer { /* Estiliza o rodapé */
     background-color: rgba(250, 204, 240, 0.822);
     width: 100%;
     bottom: 0;
@@ -133,7 +124,7 @@ footer {
 }
 
 
-
+/* Estiliza os campos de entrada e área de texto do formulário  */
 form input, form textarea {
     display: block;
     margin-bottom: 10px;
